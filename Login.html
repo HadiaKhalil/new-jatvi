@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+    
+    
+</head>
+<body>
+
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center;margin-bottom: -100px;">
+      <img src="./New folder/./logo1.webp" alt="" width="180px" >    
+    </div>
+    <div class="container">
+    <div class="div1">
+
+   
+    <div style="margin-top: -9px;" class="sign-up">
+        <h1 style="text-align: center;">Welcome!</h1>
+        <h4 style="text-align: center; margin-bottom: 15px;">Please enter your login details</h4>
+    <form action="" onsubmit="Login(event)">
+        <div style="margin-top: 5px;">
+        <label for="name">Email <br>
+    <input type="text" id="Login_email" placeholder="Enter your Email">
+    <br>
+    </label>
+</div>
+<div style="margin-top: 11px;">
+    <label for="name">Password <br>
+    <input type="text" id="Login_password" placeholder="Enter your password">
+    </label>
+</div>
+    <br>
+    <h6 style="margin-right: 120px; margin-top: -15px;">Remember Me?</h6>
+    <h6 style="margin-top: -12px; margin-left: 149px;"><u>Forget password</u></h6>
+<div style="margin-top: -2px;">
+    <button class="btn" type="submit">Login</button>
+    <p style="margin-top: -30px; text-align: center;">Are you sure?YOU want logout</p>
+    <button class="btn1" onclick="logout()">LogOut</button>
+    
+    <h5  style="margin-top: -26px;">Go to the start page click on here <a href="./index.html" >back</a></h5>
+</div>
+   
+    </form>
+</div>
+</div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js";></script>
+ <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js";></script>
+ <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyC5ZSNe2yBbuCPgQdYRQNaOcNZ9o3i9FDY",
+    authDomain: "hosting-app-61fd9.firebaseapp.com",
+    projectId: "hosting-app-61fd9",
+    storageBucket: "hosting-app-61fd9.appspot.com",
+    messagingSenderId: "380476851112",
+    appId: "1:380476851112:web:8070e0e347cd462c76539d",
+    measurementId: "G-E1EF0WLT8R"
+  };
+  firebase.initializeApp(firebaseConfig)
+ </script>
+
+</body>
+</html>

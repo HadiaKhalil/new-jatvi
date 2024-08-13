@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center;margin-bottom: -100px;">
+      <img src="./New folder/./logo1.webp" alt="" width="180px" >    
+    </div>
+
+  
+    <div class="container">
+        <div class="div1">
+
+      
+    <h3 style="text-align: center; border: 1px solid black; padding:5px; width: 200px; margin-left: 29px; border-radius: 10px;" >Registration form</h3>
+    <div class="sign-up">
+        <h2  style="text-align: center;">Sign-up</h2>
+    <form action="" onsubmit="signup(event)">
+        <div style="margin-top: 13px;">
+        <label for="name">Email <br>
+    <input style="margin-top: 4px;" type="text" id="email" placeholder=" Enter your Email">
+    <br>
+</label>
+</div>
+<div style="margin-top: 13px;">
+<label  for="name">Password <br>
+    <input style="margin-top: 4px;" type="text" id="password" placeholder=" Enter your password">
+    </label>
+    <br>
+    </div>
+    <div style="margin-top: 13px;">
+    <button class="btn" type="submit">signin</button>
+    
+    <h5 style="margin-top: -19px;">Go to the next Page Click on Here <a href="./login.html" >Login</a></h5>
+    </div>
+    </form>
+</div>
+
+
+    </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js";></script>
+ <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js";></script>
+ <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyC5ZSNe2yBbuCPgQdYRQNaOcNZ9o3i9FDY",
+    authDomain: "hosting-app-61fd9.firebaseapp.com",
+    projectId: "hosting-app-61fd9",
+    storageBucket: "hosting-app-61fd9.appspot.com",
+    messagingSenderId: "380476851112",
+    appId: "1:380476851112:web:8070e0e347cd462c76539d",
+    measurementId: "G-E1EF0WLT8R"
+  };
+  firebase.initializeApp(firebaseConfig)
+ </script>
+</body>
+</html>
